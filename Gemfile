@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+gem 'faker'
+gem 'rails_db'
 # custom theme requirements
 gem 'mailgun-ruby', '~>1.1.4'
 gem 'therubyracer'
