@@ -141,14 +141,17 @@ a:focus {
 }
 
 .intro {
+    background-size : 100%;
     display: table;
-    width: 100%;
-    height: auto;
     padding: 100px 0;
-    text-align: center;
     color: #fff;
+<<<<<<< HEAD
     background: url(asset-path("intro-bg3.jpg")) no-repeat bottom center scroll;
+=======
+    background: url(asset-path("mainposter.jpg")) no-repeat bottom center scroll;
+>>>>>>> 4c131d7189b7dd39cf2c165e6ca5add5d2984575
     background-color: #000;
+    margin-left : 400px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
