@@ -390,7 +390,7 @@ input{display:none}
 #slide2:checked ~ #slides .inner{margin-left:-100%}
 #slide3:checked ~ #slides .inner{margin-left:-200%}
 #slide4:checked ~ #slides .inner{margin-left:-300%}
-#container{width:100%;overflow:hidden}
+#container{width:100%;overflow:hidden;}
 article img{width:100%}
 #slides .inner{width:500%;line-height:0}
 #slides article{width:10%;float:left}
