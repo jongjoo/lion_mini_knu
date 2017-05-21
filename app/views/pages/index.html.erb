@@ -140,14 +140,39 @@
 </section>
 
 <!-- contact부분 -->
-<section id="singer" class=" content-section text-center singer">
+<section id="contactemail" class=" content-section text-center singer">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2>메일보내기 or 페이스북 연결</h2>
+            <div class="container">
+                     <h2>Contact </h2>
+                            <!--이메일 보내기-->
+  
+                                        <form  action="pages/mail_ok" method="POST">
+                                          <div class="form-group">
+                                            <label>발신자 이메일</label>
+                                            <input name="emailtitle" type="email" class="form-control" id="emailtitle" placeholder="이메일을 적어주세요">
+                                          </div>
+                                            <div class="form-group">
+                                              <label for="exampleInputPassword1">내 용</label>
+                                              <textarea name="emailcontent" textarea class="form-control" id="emailcontent" rows="3" placeholder="내용을 적어주세요"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-default mail_submit">메일 보내기</button>
+                                        </form>
+                                    <br><hr>
+                                    <ul class="list-inline banner-social-buttons">
+                                        <li>
+                                            <a href="https://www.facebook.com/likelionKangnam" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">강남대학교 멋사페이스북</span></a>
+                                        </li>
+                                    </ul>
 
+                        </Table>    
+            </div>
         </div>
     </div>
+
 </section>
+
+
 
 
 
