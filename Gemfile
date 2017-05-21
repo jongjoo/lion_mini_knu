@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
+
 # custom theme requirements
+gem 'mailgun-ruby', '~>1.1.4'
 gem 'therubyracer'
 gem 'less-rails-bootstrap'
 gem 'jquery-easing-rails'
