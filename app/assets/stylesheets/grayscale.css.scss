@@ -1040,19 +1040,25 @@ div#maincontent {
 .sample_image6:hover img {
    opacity: 0.3; filter: alpha(opacity=30); 
 }
+
 .box:hover {
  -moz-box-shadow: 0 0 100px #ccc; 
 -webkit-box-shadow: 0 0 100px #ccc;
 box-shadow: 0 0 100px #ccc;
 }
 
+<<<<<<< HEAD
 
 }
 
 .img-responsive{
     width: auto;
     height: auto;
+=======
+
+>>>>>>> f244f9a91944814c6100b186e3dceb6d36d59e35
 }
+
 
 
 
@@ -1173,4 +1179,8 @@ input#img-8:checked ~ .nav-dots label#img-dot-8
 input#img-9:checked ~ .nav-dots label#img-dot-9 {
 	background: rgba(0, 0, 0, 0.8);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f244f9a91944814c6100b186e3dceb6d36d59e35
 }
