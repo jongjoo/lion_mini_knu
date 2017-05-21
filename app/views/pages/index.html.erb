@@ -1,51 +1,12 @@
 <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">
-                <i class="fa fa-play-circle"></i>  <span class="light">목양축전</span>
-            </a>
-        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#singer">연예인</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#download">Download</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
 
-<!-- Intro Header -->
+<!--포스터 있는 부분 Intro Header -->
 <header class="intro">
     <div class="intro-body">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <!--<h1 class="brand-heading">Grayscale</h1>
-                    <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
-                    <a href="#about" class="btn btn-circle page-scroll">
-                        <i class="fa fa-angle-double-down animated"></i>-->
                     </a>
                 </div>
             </div>
@@ -53,37 +14,39 @@
     </div>
 </header>
 
-<!-- About Section -->
+<!-- 목양축전 동영상 있는 부분 Section -->
 <section id="about" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2>About Grayscale</h2>
-            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Kk9WTedxxow" frameborder="0" allowfullscreen></iframe></p>
-            <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-            <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-            <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+            <h2>2017 강남대학교 목양(目良)축제</h2>
+            <p><iframe width="800" height="600" src="https://www.youtube.com/embed/Kk9WTedxxow" frameborder="0" allowfullscreen></iframe></p>
+            <p></p>
         </div>
     </div>
 </section>
 
-<!-- 학교일정 -->
-<section id="singer" class="container content-section text-center singer">
+<!-- 학교 가수 라인업 -->
+<section id="singer" class=" content-section text-center singer">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2>가수소개</h2>
-            <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-            <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-            <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+            <h2>라인업</h2>
+                <table>
+                    <Tr>
+                        <td><img src='<%= image_url '24th_lineup.jpg' %>' class="img-responsive" alt=""></td>
+                        <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                        <td><img src='<%= image_url '25th_lineup.jpg' %>' class="img-responsive" alt=""></td>
+                    </tr>
+                </table>
         </div>
     </div>
 </section>
 
-<!-- Download Section -->
+<!-- 행사정보 -->
 <section id="download" class="content-section text-center">
     <div class="download-section">
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Download Grayscale</h2>
+                <h2>행사정q</h2>
                 <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
                 <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
             </div>
@@ -91,6 +54,68 @@
     </div>
 </section>
 
+
+<!-- 주점정보 -->
+
+          <article id="slider">
+            <div>
+            	<p>
+            		<span>Elegant Responsive Pure CSS3 Slider</span>
+            	</p>
+            </div>
+            <input checked type='radio' name='slider' id='slide1'/>
+            <input type='radio' name='slider' id='slide2'/>
+            <input type='radio' name='slider' id='slide3'/>
+            <input type='radio' name='slider' id='slide4'/>
+            <input type='radio' name='slider' id='slide5'/>
+            <div id="slides">
+            	<div id="container">
+            		<div class="inner">
+            			<article>
+            			<img src="<%= image_url 'blind_date.jpg'%>"/>
+            			</article>
+            			<article>
+            			<div class='caption'>
+            				<bar>A Bubble on Flower</bar>
+            			</div>
+            			<img src="<%= image_url 'show_sing.jpg'%>"/>
+            			</article>
+            			<article>
+            			<div class='caption'>
+            				<bar>A Small Elephant <a href="#">read more</a></bar>
+            			</div>
+            			<img src="<%= image_url 'ebichu.jpg'%>"/>
+            			</article>
+            			<article>
+            			<div class='caption'>
+            				<bar>A Yellow Flower <a href="#">read more</a></bar>
+            			</div>
+            			<img src="http://0.s3.envato.com/files/84450220/img/Dummy3-942X400.jpg"/>
+            			</article>
+            			<article>
+            			<div class='caption'>
+            				<bar>A Pink Flower</bar>
+            			</div>
+            			<img src="http://0.s3.envato.com/files/84450220/img/Dummy4-942X400.jpg"/>
+            			</article>
+            		</div>
+            	</div>
+            </div>
+            <div id="commands">
+            	<label for='slide1'></label>
+            	<label for='slide2'></label>
+            	<label for='slide3'></label>
+            	<label for='slide4'></label>
+            	<label for='slide5'></label>
+            </div>
+            <div id="active">
+            	<label for='slide1'></label>
+            	<label for='slide2'></label>
+            	<label for='slide3'></label>
+            	<label for='slide4'></label>
+            	<label for='slide5'></label>
+            </div>
+            </article>
 <!-- Contact Section -->
 
 
@@ -185,6 +210,7 @@
     </section>
 </div>
 
+<<<<<<< HEAD
 
 
 
@@ -431,3 +457,42 @@
 </body>
 
 </html>
+=======
+<!-- contact부분 -->
+<section id="contactemail" class=" content-section text-center singer">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="container">
+                     <h2>Contact </h2>
+                            <!--이메일 보내기-->
+  
+                                        <form  action="pages/mail_ok" method="POST">
+                                          <div class="form-group">
+                                            <label>발신자 이메일</label>
+                                            <input name="emailtitle" type="email" class="form-control" id="emailtitle" placeholder="이메일을 적어주세요">
+                                          </div>
+                                            <div class="form-group">
+                                              <label for="exampleInputPassword1">내 용</label>
+                                              <textarea name="emailcontent" textarea class="form-control" id="emailcontent" rows="3" placeholder="내용을 적어주세요"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-default mail_submit">메일 보내기</button>
+                                        </form>
+                                    <br><hr>
+                                    <ul class="list-inline banner-social-buttons">
+                                        <li>
+                                            <a href="https://www.facebook.com/likelionKangnam" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">강남대학교 멋사페이스북</span></a>
+                                        </li>
+                                    </ul>
+
+                        </Table>    
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+>>>>>>> b94a31ec48e36ac2e626441a26feb28714711fe6
