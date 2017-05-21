@@ -2,7 +2,24 @@ require 'mailgun'
 
 class PagesController < ApplicationController
   def index
+    @all_post = Post.all 
+    
   end
+  
+  def write
+    @one_post = Post.new
+    @one_post.content = params[:content]
+    @one_post.writer = params[:writer]
+    
+    if @one_post.save
+      redirect_to "/pages/index"
+    else  
+      render :text => @one_post.errors.messages[:writer][0]
+    end
+    
+    
+  end
+  
   
   def mail_ok
         @emailtitle = params[:emailtitle]
