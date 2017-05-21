@@ -61,7 +61,7 @@ a:focus {
     font-weight: 400;
 }
 
-.navbar-custom {
+.bar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
@@ -141,11 +141,12 @@ a:focus {
 }
 
 .intro {
-    background-size : 100%;
-    display: table;
-    padding: 100px 0;
-    color: #fff;
-
+      display: table;
+      width: 100%;
+      height: auto;
+      padding: 100px 0;
+      text-align: center;
+      color: white;
     background: url(asset-path("mainposter.jpg")) no-repeat bottom center scroll;
     background-color: #000;
     margin-left : auto;
@@ -154,6 +155,8 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+   
+  
 }
 
 .intro .intro-body {
@@ -282,7 +285,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 100px;
     }
 
     .download-section {
