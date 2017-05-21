@@ -117,6 +117,8 @@
             </div>
         </div>
     </div>
+    
+    
 </section>
           
             
@@ -234,7 +236,35 @@
             
             </div>
         </div>
+        
+        
     </section>
+    
+     <!-- 랜덤추천 버튼 -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          선택장애를 가진 당신을 위한 주점-메뉴 추천!
+        </button>
+        
+        <!-- 랜덤추천 -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">속는셈 치고 가보자..</h4>
+              </div>
+              <div class="modal-body">
+                <%=@random%>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+    
 </div>
 
 <!--주점정보 버튼 누르면 안에 정보 페이지-->
@@ -601,9 +631,9 @@
                 </div>
             </div>
         </div>
+    
     </div>
-
-
+    
 
 
 </body>
@@ -686,10 +716,5 @@
     </div>
 </div>
 </section>
-
-
-
-
-
 
 
