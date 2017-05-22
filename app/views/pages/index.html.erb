@@ -128,7 +128,7 @@
 <!--주점정보-->
 
 <section id="contact" class="container content-section text-center">
-     <section id="portfolio" style type="text/css" media="all and (max-width:970px)">>
+     <section id="portfolio" style type="text/css" media="all and (max-width:970px)">
         <div class="container">
             <div class="row">
  
@@ -254,7 +254,9 @@
                 <h4 class="modal-title" id="myModalLabel">속는셈 치고 가보자..</h4>
               </div>
               <div class="modal-body">
-                <%=@random%>
+                <%@random.each do |p|%>
+                <%=p%>
+                <%end%>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
