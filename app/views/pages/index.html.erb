@@ -240,35 +240,44 @@
         
     </section>
     
-     <!-- 랜덤추천 버튼 -->
+<!-- 학교 가수 라인업 -->
+<section id="singer" class=" #">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>❤️ 선택장애들을 위한 이벤트! ❤️️</h2><br><br>
+               
+                        <img src='<%= image_url 'select.png' %>' class="img-responsive img-centered" alt="">
+                   
+       
+     <!-- 랜덤추천 버튼 --><br><br>
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
           선택장애를 가진 당신을 위한 주점-메뉴 추천!
         </button>
-        
+        <p> 여기누르면 막ㅇㅁㄴㅇㅁㄴㅇㄴㅁㅇㅇㅁㄴㅇ</p>
+
         <!-- 랜덤추천 -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">속는셈 치고 가보자..</h4>
-              </div>
-              <div class="modal-body">
-                <%@random.each do |p|%>
-                <%=p%>
-                <%end%>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-    
-    
-</div>
-
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">속는셈 치고 가보자..</h4>
+                      </div>
+                      <div class="modal-body">
+                        <%@random.each do |p|%>
+                        <%=p%>
+                        <%end%>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+ </div>
+    </div>
+</section>
 <!--주점정보 버튼 누르면 안에 정보 페이지-->
 
  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -614,9 +623,25 @@
                         <div class="modal-body">
                             <h2>사범 대학</h2>
                             <hr class="star-primary">
-                            <img src='<%= image_url '#' %>' class="img-responsive img-centered" alt="">
+                            <img src='<%= image_url 'ed.jpg' %>' class="img-responsive img-centered" alt="">
+                            <img src='<%= image_url 'ed2.jpg' %>' class="img-responsive img-centered" alt="">
                             
-                            <p>업로드 예정</p>
+                            
+                            <p>🚪어디로든 문🚪열고 교육학과 주점으로 오슈🎊<br>
+강남 학우 여러분 안녕하세요!!<br>
+소식 들으셨나요? 도라에몽이 주점을 차렸대요!!🙉🙈<br>
+교육학과와 도라에몽의 콜라보로 안주로 참교육 각입니다👩‍🏫👨‍🏫<br>
+어디냐고요? 샬롬관 맞은편에서 도라에몽을 찾으면 된대요!<br>
+이벤트로 테이블 당 폴라로이드로 즉석사진도 찍어준대요!<Br>
+도라에몽 포토존에서 사진찍으면 인생샷이 찰칵, 찰칵!👯<br>
+프로그릴러의 목살바비큐 구이🍗와 부학회장네 장독에서 빼온 김치전🥘이 끝내준다지 뭐에요~👍<br>
+그뿐이 아니에요!! 모든 안주가 완벽 그 자체, 끝내줍니다!!<br>
+바비큐 350g에 11,000원이라니까 2접시 먹어도 돼요😋<br>
+좋은 재료 싸게 떼와 저렴하게 제공한다니 얇은 지갑에도 걱정은 노노노!🙅‍♂️🙅<br>
+궁상민이형도 우리 주점에서 가격보고 기절초풍 한다고요!!<br>
+운이 좋으면 심덕후오빠를 만날 수도 있다니까, 완전 핵이득인 부분?<br>
+마지막으로 클럽 뺨때리는 빵빵한 사운드에 분위기도 UP! UP!💃🕺<br>
+싸고 맛있게 많이 팔 교육학과였습니다!!☁️</p>
                             <ul class="list-inline item-details">
                               <li>Date:
                                     <strong><a href="#">May 2017</a>
