@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-
 gem 'faker'
 gem 'rails_db'
 # custom theme requirements

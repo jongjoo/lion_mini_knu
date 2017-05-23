@@ -4,6 +4,7 @@
 <!--포스터 있는 부분 Intro Header -->
 <header class="intro">
     <div class="intro-body">
+        <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     </a>
@@ -17,7 +18,7 @@
 <section id="about" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2>2017 강남대학교 목양(目良)축제</h2>
+            <h2>2017 강남대학교 목양(目良)축제</h2><br><Br>
             <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Kk9WTedxxow" frameborder="0" allowfullscreen></iframe></p>
             <p></p>
         </div>
@@ -59,56 +60,56 @@
 
             
             <div id="slides">
-            	<div id="container">
-            		<div class="inner">
-            			<article>
-            			<img src="<%= image_url 'neon.jpg'%>"/>
-            			</article>
-            			<article>
-            			
-            			<img src="<%= image_url 'food.jpg'%>"/>
-            			</article>
-            			<article>
-            			
-            			<img src="<%= image_url 'ebichu.jpg'%>"/>
-            			</article>
-            			<article>
-            			
-            			<img src="<%= image_url 'blind.jpg'%>"/>
-            			</article>
-            			<article>
-            		
-            			<img src="<%= image_url 'game.jpg'%>"/>
-            			</article>
-            	    	<article>
-            			
-            			<img src="<%= image_url 'rose.jpg'%>"/>
-            			</article>
-            			
-            			<article>
-            			
-            			<img src="<%= image_url 'ub.jpg'%>"/>
-            			</article>
-            			<article>
-            			<img src="<%= image_url 'neon.jpg'%>"/>
-            			</article>
-            		</div>
-            	</div>
+               <div id="container">
+                  <div class="inner">
+                     <article>
+                     <img src="<%= image_url 'neon.jpg'%>"/>
+                     </article>
+                     <article>
+                     
+                     <img src="<%= image_url 'food.jpg'%>"/>
+                     </article>
+                     <article>
+                     
+                     <img src="<%= image_url 'ebichu.jpg'%>"/>
+                     </article>
+                     <article>
+                     
+                     <img src="<%= image_url 'blind.jpg'%>"/>
+                     </article>
+                     <article>
+                  
+                     <img src="<%= image_url 'game.jpg'%>"/>
+                     </article>
+                      <article>
+                     
+                     <img src="<%= image_url 'rose.jpg'%>"/>
+                     </article>
+                     
+                     <article>
+                     
+                     <img src="<%= image_url 'ub.jpg'%>"/>
+                     </article>
+                     <article>
+                     <img src="<%= image_url 'neon.jpg'%>"/>
+                     </article>
+                  </div>
+               </div>
             </div>
             <div id="commands">
-            	<label for='slide1'></label>
-            	<label for='slide2'></label>
-            	<label for='slide3'></label>
-            	<label for='slide4'></label>
-            	
-            	
+               <label for='slide1'></label>
+               <label for='slide2'></label>
+               <label for='slide3'></label>
+               <label for='slide4'></label>
+               
+               
             </div>
             <div id="active">
-            	<label for='slide1'></label>
-            	<label for='slide2'></label>
-            	<label for='slide3'></label>
-            	<label for='slide4'></label>
-            	
+               <label for='slide1'></label>
+               <label for='slide2'></label>
+               <label for='slide3'></label>
+               <label for='slide4'></label>
+               
             </div>
             </article>
                 <p>강 남 대 학 교 에 서 주 관 하는 행 사 정 보</p>
@@ -116,6 +117,8 @@
             </div>
         </div>
     </div>
+    
+    
 </section>
           
             
@@ -125,7 +128,7 @@
 <!--주점정보-->
 
 <section id="contact" class="container content-section text-center">
-     <section id="portfolio" style type="text/css" media="all and (max-width:970px)">>
+     <section id="portfolio" style type="text/css" media="all and (max-width:970px)">
         <div class="container">
             <div class="row">
  
@@ -200,6 +203,9 @@
 
                               </div>
                          
+
+                           
+
                         </div>
                         <div class="box">
                            <img src='<%= image_url 'tksdjq.jpg' %>' class="img-responsive" alt="">
@@ -230,9 +236,48 @@
             
             </div>
         </div>
+        
+        
     </section>
-</div>
+    
+<!-- 학교 가수 라인업 -->
+<section id="singer" class=" #">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>❤️ 선택장애들을 위한 이벤트! ❤️️</h2><br><br>
+               
+                        <img src='<%= image_url 'select.png' %>' class="img-responsive img-centered" alt="">
+                   
+       
+     <!-- 랜덤추천 버튼 --><br><br>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          선택장애를 가진 당신을 위한 주점-메뉴 추천!
+        </button>
+        <p> 여기누르면 막ㅇㅁㄴㅇㅁㄴㅇㄴㅁㅇㅇㅁㄴㅇ</p>
 
+        <!-- 랜덤추천 -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">속는셈 치고 가보자..</h4>
+                      </div>
+                      <div class="modal-body">
+                        <%@random.each do |p|%>
+                        <%=p%>
+                        <%end%>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+ </div>
+    </div>
+</section>
 <!--주점정보 버튼 누르면 안에 정보 페이지-->
 
  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -429,13 +474,13 @@
                             <ul class="slides">
                                 <input type="radio" name="radio-btn" id="img-1" checked />
                                 <li class="slide-container">
-                            		<div class="slide">
-                            			<img src='<%= image_url 'da.jpg' %>' />
+                                  <div class="slide">
+                                     <img src='<%= image_url 'da.jpg' %>' />
                                     </div>
-                            		<div class="nav">
-                            			<label for="img-9" class="prev">&#x2039;</label>
-                            			<label for="img-2" class="next">&#x203a;</label>
-                            		</div>
+                                  <div class="nav">
+                                     <label for="img-9" class="prev">&#x2039;</label>
+                                     <label for="img-2" class="next">&#x203a;</label>
+                                  </div>
                                 </li>
                             
                                 <input type="radio" name="radio-btn" id="img-2" />
@@ -443,10 +488,10 @@
                                     <div class="slide">
                                       <img src='<%= image_url 'da2.jpg' %>' />
                                     </div>
-                            		<div class="nav">
-                            			<label for="img-1" class="prev">&#x2039;</label>
-                            			<label for="img-3" class="next">&#x203a;</label>
-                            		</div>
+                                  <div class="nav">
+                                     <label for="img-1" class="prev">&#x2039;</label>
+                                     <label for="img-3" class="next">&#x203a;</label>
+                                  </div>
                                 </li>
                             
                                 <input type="radio" name="radio-btn" id="img-3" />
@@ -454,10 +499,10 @@
                                     <div class="slide">
                                       <img src='<%= image_url 'da3.jpg' %>' />
                                     </div>
-                            		<div class="nav">
-                            			<label for="img-2" class="prev">&#x2039;</label>
-                            			<label for="img-4" class="next">&#x203a;</label>
-                            		</div>
+                                  <div class="nav">
+                                     <label for="img-2" class="prev">&#x2039;</label>
+                                     <label for="img-4" class="next">&#x203a;</label>
+                                  </div>
                                 </li>
                             
                                 <input type="radio" name="radio-btn" id="img-4" />
@@ -465,10 +510,10 @@
                                     <div class="slide">
                                       <img src='<%= image_url 'da4.jpg' %>' />
                                     </div>
-                            		<div class="nav">
-                            			<label for="img-3" class="prev">&#x2039;</label>
-                            			<label for="img-5" class="next">&#x203a;</label>
-                            		</div>
+                                  <div class="nav">
+                                     <label for="img-3" class="prev">&#x2039;</label>
+                                     <label for="img-5" class="next">&#x203a;</label>
+                                  </div>
                                 </li>
                             
                                 <input type="radio" name="radio-btn" id="img-5" />
@@ -476,10 +521,10 @@
                                     <div class="slide">
                                       <img src='<%= image_url 'da5.jpg' %>' />
                                     </div>
-                            		<div class="nav">
-                            			<label for="img-4" class="prev">&#x2039;</label>
-                            			<label for="img-6" class="next">&#x203a;</label>
-                            		</div>
+                                  <div class="nav">
+                                     <label for="img-4" class="prev">&#x2039;</label>
+                                     <label for="img-6" class="next">&#x203a;</label>
+                                  </div>
                                 </li>
                             
                                 <input type="radio" name="radio-btn" id="img-6" />
@@ -487,10 +532,10 @@
                                     <div class="slide">
                                       <img src='<%= image_url 'da6.jpg' %>' />
                                     </div>
-                            		<div class="nav">
-                            			<label for="img-5" class="prev">&#x2039;</label>
-                            			<label for="img-7" class="next">&#x203a;</label>
-                            		</div>
+                                  <div class="nav">
+                                     <label for="img-5" class="prev">&#x2039;</label>
+                                     <label for="img-7" class="next">&#x203a;</label>
+                                  </div>
                                 </li>
                                 
                                 <input type="radio" name="radio-btn" id="img-7" />
@@ -498,10 +543,10 @@
                                     <div class="slide">
                                       <img src='<%= image_url 'da7.jpg' %>' />
                                     </div>
-                            		<div class="nav">
-                            			<label for="img-6" class="prev">&#x2039;</label>
-                            			<label for="img-8" class="next">&#x203a;</label>
-                            		</div>
+                                  <div class="nav">
+                                     <label for="img-6" class="prev">&#x2039;</label>
+                                     <label for="img-8" class="next">&#x203a;</label>
+                                  </div>
                                 </li>
                                 
                                 <input type="radio" name="radio-btn" id="img-8" />
@@ -509,10 +554,10 @@
                                     <div class="slide">
                                       <img src='<%= image_url 'da8.jpg' %>' />
                                     </div>
-                            		<div class="nav">
-                            			<label for="img-7" class="prev">&#x2039;</label>
-                            			<label for="img-9" class="next">&#x203a;</label>
-                            		</div>
+                                  <div class="nav">
+                                     <label for="img-7" class="prev">&#x2039;</label>
+                                     <label for="img-9" class="next">&#x203a;</label>
+                                  </div>
                                 </li>
                                 
                                 <input type="radio" name="radio-btn" id="img-9" />
@@ -520,10 +565,10 @@
                                     <div class="slide">
                                       <img src='<%= image_url 'da9.jpg' %>' />
                                     </div>
-                            		<div class="nav">
-                            			<label for="img-8" class="prev">&#x2039;</label>
-                            			<label for="img-1" class="next">&#x203a;</label>
-                            		</div>
+                                  <div class="nav">
+                                     <label for="img-8" class="prev">&#x2039;</label>
+                                     <label for="img-1" class="next">&#x203a;</label>
+                                  </div>
                                 </li>
                                 
                         
@@ -578,9 +623,25 @@
                         <div class="modal-body">
                             <h2>사범 대학</h2>
                             <hr class="star-primary">
-                            <img src='<%= image_url '#' %>' class="img-responsive img-centered" alt="">
+                            <img src='<%= image_url 'ed.jpg' %>' class="img-responsive img-centered" alt="">
+                            <img src='<%= image_url 'ed2.jpg' %>' class="img-responsive img-centered" alt="">
                             
-                            <p>업로드 예정</p>
+                            
+                            <p>🚪어디로든 문🚪열고 교육학과 주점으로 오슈🎊<br>
+강남 학우 여러분 안녕하세요!!<br>
+소식 들으셨나요? 도라에몽이 주점을 차렸대요!!🙉🙈<br>
+교육학과와 도라에몽의 콜라보로 안주로 참교육 각입니다👩‍🏫👨‍🏫<br>
+어디냐고요? 샬롬관 맞은편에서 도라에몽을 찾으면 된대요!<br>
+이벤트로 테이블 당 폴라로이드로 즉석사진도 찍어준대요!<Br>
+도라에몽 포토존에서 사진찍으면 인생샷이 찰칵, 찰칵!👯<br>
+프로그릴러의 목살바비큐 구이🍗와 부학회장네 장독에서 빼온 김치전🥘이 끝내준다지 뭐에요~👍<br>
+그뿐이 아니에요!! 모든 안주가 완벽 그 자체, 끝내줍니다!!<br>
+바비큐 350g에 11,000원이라니까 2접시 먹어도 돼요😋<br>
+좋은 재료 싸게 떼와 저렴하게 제공한다니 얇은 지갑에도 걱정은 노노노!🙅‍♂️🙅<br>
+궁상민이형도 우리 주점에서 가격보고 기절초풍 한다고요!!<br>
+운이 좋으면 심덕후오빠를 만날 수도 있다니까, 완전 핵이득인 부분?<br>
+마지막으로 클럽 뺨때리는 빵빵한 사운드에 분위기도 UP! UP!💃🕺<br>
+싸고 맛있게 많이 팔 교육학과였습니다!!☁️</p>
                             <ul class="list-inline item-details">
                               <li>Date:
                                     <strong><a href="#">May 2017</a>
@@ -597,9 +658,9 @@
                 </div>
             </div>
         </div>
+    
     </div>
-
-
+    
 
 
 </body>
@@ -681,12 +742,3 @@
         </div>
     </div>
 </div>
-</section>
-
-
-
-
-
-
-
-
